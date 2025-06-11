@@ -27,6 +27,12 @@
                     <button onClick={() => setCounter(10)}>
                         Atualizar
                     </button>
+                    <button onClick={() => setCounter((preValue) => preValue + 1)}>
+                        incrementa
+                    </button>
+                    <button onClick={() => setCounter((preValue) => preValue - 1)}>
+                        decrementar
+                    </button>
                 </>
             )
         }
